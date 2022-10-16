@@ -16,11 +16,18 @@ public class Main {
 //        System.out.println(r2.hypotenuse());
 
 
-        for (int i = 0; i < 100; i++) {
-            int randomNum = (int) (Math.random() * 51) + 35;
-                    System.out.println(randomNum);
-        }
+//        for (int i = 0; i < 100; i++) {
+//            int randomNum = (int) (Math.random() * 51) + 35;
+//                    System.out.println(randomNum);
+//        }
+//
+//        LuckyNumbers luck = new LuckyNumbers();
+//        System.out.println(luck.getLuckyNumbers());
 
+        double exp = Math.exp(50);
+        System.out.println(exp);
+        double exp1 = 50 * Math.exp(50);
+        System.out.println(exp1);
         }
 
     }
